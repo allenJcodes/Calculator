@@ -48,7 +48,7 @@ body *{
 }
 
 #previous-entry {
-    color: #999999;
+    color: var(--tertiary-color);
 }
 
 #btn-container{
