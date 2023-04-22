@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+:root {
+    --primary-bg-color: #f5f2ea;
+    --primary-color: #fdc886;
+    --card-color: #fff;
+    --text-color: #000;
+    --border-color: #f0f0f0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 10%;
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    margin: auto;
+}
+
+/* navbar styles */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2em;
+    left: 0;
+    width: 100%;
+}
+
+#logo {
+    font-weight: 900;
+}
+
+#nav-right {
+    display: flex;
+    width: 20%;
+}
+
+#nav-right a {
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-color);
+    align-items: center;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+}
+
+#nav-btn-1{
+
+}
+
+#nav-btn-2{
+    background-color: var(--primary-color);
+}
+
+/* navbar styles */
+
+
+/* main content styles */
+
+#login-card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 500px;
+    gap: 0.5em;
+    background-color: var(--card-color);
+    padding: 3em;
+    border-radius: 1.75em;
+}
+
+#login-message {
+    max-width: 65%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.custom-input {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--border-color);
+    padding: 0.75em 0.5em 0.75em 1.25em;
+    border-radius: 0.5em;
+}
+
+#trouble-text {
+    align-self: flex-start;   
+}
+
+#sign-in-btn {
+    background-color: var(--primary-color);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 0.75em 1em;
+    border-radius: 0.5em;
+}
+
+.text-input{
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+
+#submit-btn{
+    padding: 0.25em;
+}
+
+/* main content styles */
+
+
+/* footer styles */
+
+footer {
+
+}
+
+/* footer styles */
